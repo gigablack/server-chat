@@ -1,3 +1,6 @@
 {
-    "alias":["server.reactive-chat.now.sh"]
+    "alias":["server.react-chat.now.sh"],
+    "builds": [
+        {"src":"./index.js", "use":"@now/node-server"}
+    ]
 }

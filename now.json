@@ -1,6 +1,7 @@
 {
+    "version":1,
     "alias":["server-react-chat.now.sh"],
     "builds": [
-        {"src":"./index.js", "use":"@now/node-server"}
+        {"src":"./index.js", "use":"@now/node"}
     ]
 }

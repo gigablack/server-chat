@@ -45,4 +45,8 @@ io.on('connection',(socket)=>{
             id: socket.id
         })
     })
+
+    socket.on('typing',(username) => {
+        socket.broadcast.emit('typing',username)
+    })
 })
